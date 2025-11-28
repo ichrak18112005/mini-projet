@@ -53,4 +53,7 @@ client.connecter("127.0.0.1", 5000)
 while True:
     if not client.envoyer():
         break
- 
+    
+ print("Client 3 connected successfully ")
+name = input("Veuillez entrer votre nom : ")
+print("Bonjour", name)
