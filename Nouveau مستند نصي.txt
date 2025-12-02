@@ -1,48 +1,3 @@
-\# Projet – Application Client/Serveur DevOps
-
-
-
-\## Contenu du dépôt
-
-\- client\_v1 : première version simple.
-
-\- client\_v2 : version avancée.
-
-\- serveur\_v1 : première version simple.
-
-\- serveur\_v2 : version avancée.
-
-
-
-\## Lancer sans Docker
-
-python serveur\_v2/serveur2.py
-
-python client\_v2/client2.py
-
-
-
-\## Lancer avec Docker
-
-docker-compose up
-
-
-
-\## Fonctionnalités :
-
-\- Ajouter une tâche
-
-\- Supprimer une tâche
-
-\- Modifier statut
-
-\- Lister les tâches
-
-\- Connexions multi-clients
-
-
-
-## Contenu du fichier texte
 Projet : Application Client / Serveur DevOps
 
 Cette application permet de gérer des tâches avec une architecture Client/Serveur TCP.
@@ -76,6 +31,3 @@ Lancement avec Docker :
 2. Lancer les clients définis (2 clients) :
    docker compose run client1
    docker compose run client2
-
-
-
