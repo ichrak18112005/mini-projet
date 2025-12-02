@@ -1,0 +1,11 @@
+# Dockerfile du client
+FROM python:3.12-slim
+
+# Définir le dossier de travail dans le conteneur
+WORKDIR /app
+
+# Copier le code client
+COPY client3.py .
+
+# Commande pour lancer le client
+CMD ["python", "client3.py"]
